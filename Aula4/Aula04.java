@@ -5,6 +5,7 @@ public class Aula04 {
     c1.status();
     Caneta0 c2 = new Caneta0("BIC", "LARANJA", 1.5f);
     c2.status();
+    
 
 
 
