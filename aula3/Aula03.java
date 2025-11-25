@@ -1,3 +1,5 @@
+package aula3;
+
 public class Aula03 {
     public static void main(String[] args) {
         Caneta1 c1 = new Caneta1();

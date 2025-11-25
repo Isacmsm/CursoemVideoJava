@@ -1,3 +1,5 @@
+package aula2Ex;
+
 public class Estudar {
     String disciplina;
     String assunto;

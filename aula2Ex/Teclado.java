@@ -1,3 +1,5 @@
+package aula2Ex;
+
 public class Teclado {
     String Cor;
     String Modelo;

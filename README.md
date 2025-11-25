@@ -23,8 +23,8 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - [x] Aula Prática 3 – Configurando Visibilidade de Atributos e Métodos
 - [x] Aula Teórica 4 – Métodos Especiais
 - [x] Aula Prática 4 – Métodos Getter, Setter e Construtor
-- [ ] Aula Teórica 5 – Exemplo Prático com Objetos
-- [ ] Aula Prática 5 – Exemplo Prático em Java
+- [x] Aula Teórica 5 – Exemplo Prático com Objetos
+- [x] Aula Prática 5 – Exemplo Prático em Java
 - [ ] Aula Teórica 6 – Pilares da POO: Encapsulamento
 - [ ] Aula Prática 6 – Encapsulamento
 - [ ] Aula Teórica 7 – Relacionamento entre Classes
@@ -48,10 +48,11 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 
 ## Exercícios já implementados
 
-- Classes de exemplo: `Caneta`, `Celular`, `Teclado`, entre outros.
-- Exercícios sobre criação de objetos, definição de atributos e visibilidade (`public`, `private`, `protected`).
-- Implementação de métodos especiais, construtores, getters e setters para praticar o encapsulamento.
-- Organização por pastas conforme cada aula/prática do curso.
+- **Aulas Iniciais:** Classes de exemplo como `Caneta`, `Celular`, `Teclado`, focando em visibilidade (`public`, `private`, `protected`) e métodos especiais (Getters, Setters, Construtores).
+- **Projeto ContaBanco (Aula 5):** Simulação completa de um sistema bancário.
+  - Implementação de métodos para `abrirConta`, `fecharConta`, `depositar`, `sacar` e `pagarMensal`.
+  - Uso de lógica de validação (impedir saque sem saldo, impedir depósito em conta fechada).
+  - Diferenciação entre Conta Corrente (CC) e Conta Poupança (CP) com regras de bônus e taxas específicas.
 
 ## Como usar
 

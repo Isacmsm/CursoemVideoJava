@@ -1,3 +1,5 @@
+package aula2Ex;
+
 public class Aula2Ex {
  public static void main(String[] args) {
     Teclado t1 = new Teclado();

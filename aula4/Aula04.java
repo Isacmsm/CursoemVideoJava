@@ -1,4 +1,4 @@
-package Aula4;
+package aula4;
 public class Aula04 {
     public static void main(String[] args) {
     Caneta0 c1 = new Caneta0("NIC", "AMARELA", 0.4f);

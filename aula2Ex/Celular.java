@@ -1,3 +1,5 @@
+package aula2Ex;
+
 public class Celular {
     String Cor;
     String Marca;

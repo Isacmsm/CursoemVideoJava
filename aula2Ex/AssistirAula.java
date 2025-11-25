@@ -1,3 +1,5 @@
+package aula2Ex;
+
 public class AssistirAula {
     String materia;
     String professor;
