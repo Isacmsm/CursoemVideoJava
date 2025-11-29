@@ -7,7 +7,7 @@ Este repositório reúne todos os exercícios desenvolvidos durante o [Curso de 
 - Curso completo e gratuito, referência nacional para iniciantes e estudantes de Java.
 - Ministrado por Gustavo Guanabara, professor destaque na área.
 - Aborda teoria, exemplos práticos, explicações em vídeo e projetos de fixação.
-- Plataforma utilizada: NetBeans e, ocasionalmente, IDEs alternativas de Java.
+- Plataforma utilizada: NetBeans e VS Code (com extensão Java).
 
 ## Estrutura do Repositório
 
@@ -25,14 +25,14 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - [x] Aula Prática 4 – Métodos Getter, Setter e Construtor
 - [x] Aula Teórica 5 – Exemplo Prático com Objetos
 - [x] Aula Prática 5 – Exemplo Prático em Java
-- [ ] Aula Teórica 6 – Pilares da POO: Encapsulamento
-- [ ] Aula Prática 6 – Encapsulamento
-- [ ] Aula Teórica 7 – Relacionamento entre Classes
-- [ ] Aula Prática 7 – Objetos Compostos em Java
-- [ ] Aula Teórica 8 – Relacionamento de Agregação
-- [ ] Aula Prática 8 – Agregação entre Objetos com Java
-- [ ] Aula Teórica 9 – Exercícios de POO
-- [ ] Aula Prática 9 – Exercício prático POO em Java
+- [x] Aula Teórica 6 – Pilares da POO: Encapsulamento
+- [x] Aula Prática 6 – Encapsulamento
+- [x] Aula Teórica 7 – Relacionamento entre Classes
+- [x] Aula Prática 7 – Objetos Compostos em Java
+- [x] Aula Teórica 8 – Relacionamento de Agregação
+- [x] Aula Prática 8 – Agregação entre Objetos com Java
+- [x] Aula Teórica 9 – Exercícios de POO
+- [x] Aula Prática 9 – Exercício prático POO em Java
 - [ ] Aula Teórica 10 – Herança (Parte 1)
 - [ ] Aula Prática 10 – Herança (Parte 1)
 - [ ] Aula Teórica 11 – Herança (Parte 2)
@@ -49,16 +49,29 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 ## Exercícios já implementados
 
 - **Aulas Iniciais:** Classes de exemplo como `Caneta`, `Celular`, `Teclado`, focando em visibilidade (`public`, `private`, `protected`) e métodos especiais (Getters, Setters, Construtores).
+  
 - **Projeto ContaBanco (Aula 5):** Simulação completa de um sistema bancário.
   - Implementação de métodos para `abrirConta`, `fecharConta`, `depositar`, `sacar` e `pagarMensal`.
-  - Uso de lógica de validação (impedir saque sem saldo, impedir depósito em conta fechada).
-  - Diferenciação entre Conta Corrente (CC) e Conta Poupança (CP) com regras de bônus e taxas específicas.
+  - Validações de segurança e regras de negócio para Conta Corrente e Poupança.
+
+- **Controle Remoto (Aula 6):** Exemplo profundo de **Encapsulamento**.
+  - Utilização de **Interface** (`Controlador`) para definir métodos abstratos.
+  - O usuário interage apenas com a "capa" do controle, sem acesso direto aos atributos internos.
+
+- **Ultra Emoji Combat (Aulas 7 e 8):** Relacionamento entre classes e **Agregação**.
+  - Classes `Lutador` e `Luta` interagindo entre si.
+  - **Diferencial:** Implementação de um algoritmo de **probabilidade ponderada** para o resultado da luta. A vitória não é totalmente aleatória; ela considera atributos como peso, altura, vitórias e uma chance dinâmica de empate, somados a um fator sorte (`Random`).
+
+- **Projeto Livro (Aula 9):** Exercício prático de fixação.
+  - Classes `Pessoa` e `Livro` ligadas por agregação (um Livro tem um Leitor).
+  - Implementação da interface `Publicacao`.
+  - Lógica detalhada para `folhear` (ir para página específica), `avancarPag` e validações (não ler com livro fechado).
 
 ## Como usar
 
 1. Clone o repositório:
 git clone https://github.com/Isacmsm/CursoemVideoJava
-2. Abra no NetBeans ou IDE de sua preferência.
+2. Abra no VS Code, NetBeans ou IDE de sua preferência.
 3. Explore cada pasta conforme o progresso das aulas.
 4. Experimente modificar e executar os códigos para testar os conceitos explicados.
 
