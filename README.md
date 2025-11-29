@@ -15,6 +15,8 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 
 ## Progresso das Aulas ✔️
 
+![Progresso do Curso](https://img.shields.io/badge/Progresso-60%25-brightgreen)
+
 - [x] Aula Teórica 1 – O que é Programação Orientada a Objetos?
 - [x] Aula Prática 1 – Instalando o JDK e NetBeans
 - [x] Aula Teórica 2 – O que é um Objeto?
