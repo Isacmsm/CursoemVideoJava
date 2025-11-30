@@ -15,7 +15,7 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 
 ## Progresso das Aulas ✔️
 
-![Progresso do Curso](https://img.shields.io/badge/Progresso-73%25-brightgreen)
+![Progresso do Curso](https://img.shields.io/badge/Progresso-87%25-brightgreen)
 
 - [x] Aula Teórica 1 – O que é Programação Orientada a Objetos?
 - [x] Aula Prática 1 – Instalando o JDK e NetBeans
@@ -39,10 +39,10 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - [x] Aula Prática 10 – Herança (Parte 1)
 - [x] Aula Teórica 11 – Herança (Parte 2)
 - [x] Aula Prática 11 – Herança (Parte 2)
-- [ ] Aula Teórica 12 – Conceito Polimorfismo (Parte 1)
-- [ ] Aula Prática 12 – Polimorfismo em Java (Parte 1)
-- [ ] Aula Teórica 13 – Conceito Polimorfismo (Parte 2)
-- [ ] Aula Prática 13 – Polimorfismo Sobrecarga (Parte 2)
+- [x] Aula Teórica 12 – Conceito Polimorfismo (Parte 1)
+- [x] Aula Prática 12 – Polimorfismo em Java (Parte 1)
+- [x] Aula Teórica 13 – Conceito Polimorfismo (Parte 2)
+- [x] Aula Prática 13 – Polimorfismo Sobrecarga (Parte 2)
 - [ ] Aula Teórica 14 – Exercícios de POO (Parte 2)
 - [ ] Aula Prática 14 – Projeto Final em Java (Parte 1)
 - [ ] Aula Teórica 15 – Exercícios de POO (Parte 3)
@@ -68,13 +68,19 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
   - Classes `Pessoa` e `Livro` ligadas por agregação (um Livro tem um Leitor).
   - Implementação da interface `Publicacao` e lógica de paginação.
 
-- **Projeto Pessoas (Aulas 10 e 11):** Foco total em **Herança** e **Polimorfismo**.
-  - Hierarquia de classes completa com `Pessoa` (Classe Abstrata) como raiz.
-  - Exploração dos tipos de herança:
-    - **Implementação:** Classe `Visitante` ("Herança Pobre").
-    - **Diferença:** Classe `Aluno` e `Professor` (Herança com atributos específicos).
-    - **Especialização:** Classe `Tecnico` (Aluno com prática profissional).
-  - Aplicação de **Sobrescrita (@Override)** na classe `Bolsista`, alterando o comportamento do método `pagarMensalidade`.
+- **Projeto Pessoas (Aulas 10 e 11):** Foco em **Herança**.
+  - Hierarquia de classes completa com `Pessoa` (Abstrata), `Aluno`, `Professor`, `Visitante`, `Bolsista` e `Tecnico`.
+  - Aplicação de Sobrescrita (@Override) no pagamento de mensalidade.
+
+- **Projeto Zoológico (Aula 12):** Polimorfismo de **Sobreposição**.
+  - Classe abstrata `Animal` e filhas (`Mamifero`, `Reptil`, `Peixe`, `Ave`).
+  - Implementação de animais específicos (`Canguru`, `Cachorro`, `Cobra`, `Tartaruga`, `Goldfish`, `Arara`).
+  - Demonstração prática de como o mesmo método `locomover()` e `emitirSom()` se comporta de forma diferente para cada classe.
+
+- **Projeto Lobo e Cachorro (Aula 13):** Polimorfismo de **Sobrecarga**.
+  - Foco na classe `Cachorro`, que herda de `Lobo`.
+  - Criação de múltiplos métodos `reagir()` com assinaturas diferentes (parâmetros variados).
+  - O cachorro reage de formas distintas dependendo se recebe uma frase, um horário do dia, a presença do dono ou a idade/peso.
 
 ## Como usar
 
