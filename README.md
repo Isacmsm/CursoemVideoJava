@@ -15,7 +15,7 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 
 ## Progresso das Aulas ✔️
 
-![Progresso do Curso](https://img.shields.io/badge/Progresso-87%25-brightgreen)
+![Progresso do Curso](https://img.shields.io/badge/Progresso-100%25-brightgreen)
 
 - [x] Aula Teórica 1 – O que é Programação Orientada a Objetos?
 - [x] Aula Prática 1 – Instalando o JDK e NetBeans
@@ -43,10 +43,10 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - [x] Aula Prática 12 – Polimorfismo em Java (Parte 1)
 - [x] Aula Teórica 13 – Conceito Polimorfismo (Parte 2)
 - [x] Aula Prática 13 – Polimorfismo Sobrecarga (Parte 2)
-- [ ] Aula Teórica 14 – Exercícios de POO (Parte 2)
-- [ ] Aula Prática 14 – Projeto Final em Java (Parte 1)
-- [ ] Aula Teórica 15 – Exercícios de POO (Parte 3)
-- [ ] Aula Prática 15 – Projeto Final em Java (Parte 2)
+- [x] Aula Teórica 14 – Exercícios de POO (Parte 2)
+- [x] Aula Prática 14 – Projeto Final em Java (Parte 1)
+- [x] Aula Teórica 15 – Exercícios de POO (Parte 3)
+- [x] Aula Prática 15 – Projeto Final em Java (Parte 2)
 
 ## Exercícios já implementados
 
@@ -80,7 +80,12 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - **Projeto Lobo e Cachorro (Aula 13):** Polimorfismo de **Sobrecarga**.
   - Foco na classe `Cachorro`, que herda de `Lobo`.
   - Criação de múltiplos métodos `reagir()` com assinaturas diferentes (parâmetros variados).
-  - O cachorro reage de formas distintas dependendo se recebe uma frase, um horário do dia, a presença do dono ou a idade/peso.
+
+- **PROJETO FINAL - YouTube (Aulas 14 e 15):** Consolidação de todos os pilares da POO.
+  - **Herança:** Classe `Gafanhoto` herdando de `Pessoa`.
+  - **Encapsulamento:** Interface `AcoesVideo` definindo o comportamento da classe `Video`.
+  - **Polimorfismo:** Sobrecarga no método `avaliar()` (pode avaliar por nota ou por porcentagem).
+  - **Agregação:** Classe `Visualizacao` que une um `Gafanhoto` (espectador) e um `Video` assistido, calculando ganho de experiência e total de views.
 
 ## Como usar
 
