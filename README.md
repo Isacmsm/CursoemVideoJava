@@ -15,7 +15,7 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 
 ## Progresso das Aulas ✔️
 
-![Progresso do Curso](https://img.shields.io/badge/Progresso-60%25-brightgreen)
+![Progresso do Curso](https://img.shields.io/badge/Progresso-73%25-brightgreen)
 
 - [x] Aula Teórica 1 – O que é Programação Orientada a Objetos?
 - [x] Aula Prática 1 – Instalando o JDK e NetBeans
@@ -35,10 +35,10 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 - [x] Aula Prática 8 – Agregação entre Objetos com Java
 - [x] Aula Teórica 9 – Exercícios de POO
 - [x] Aula Prática 9 – Exercício prático POO em Java
-- [ ] Aula Teórica 10 – Herança (Parte 1)
-- [ ] Aula Prática 10 – Herança (Parte 1)
-- [ ] Aula Teórica 11 – Herança (Parte 2)
-- [ ] Aula Prática 11 – Herança (Parte 2)
+- [x] Aula Teórica 10 – Herança (Parte 1)
+- [x] Aula Prática 10 – Herança (Parte 1)
+- [x] Aula Teórica 11 – Herança (Parte 2)
+- [x] Aula Prática 11 – Herança (Parte 2)
 - [ ] Aula Teórica 12 – Conceito Polimorfismo (Parte 1)
 - [ ] Aula Prática 12 – Polimorfismo em Java (Parte 1)
 - [ ] Aula Teórica 13 – Conceito Polimorfismo (Parte 2)
@@ -64,10 +64,17 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
   - Classes `Lutador` e `Luta` interagindo entre si.
   - **Diferencial:** Implementação de um algoritmo de **probabilidade ponderada** para o resultado da luta. A vitória não é totalmente aleatória; ela considera atributos como peso, altura, vitórias e uma chance dinâmica de empate, somados a um fator sorte (`Random`).
 
-- **Projeto Livro (Aula 9):** Exercício prático de fixação.
+- **Projeto Livro (Aula 9):** Exercício prático de fixação de Objetos Compostos.
   - Classes `Pessoa` e `Livro` ligadas por agregação (um Livro tem um Leitor).
-  - Implementação da interface `Publicacao`.
-  - Lógica detalhada para `folhear` (ir para página específica), `avancarPag` e validações (não ler com livro fechado).
+  - Implementação da interface `Publicacao` e lógica de paginação.
+
+- **Projeto Pessoas (Aulas 10 e 11):** Foco total em **Herança** e **Polimorfismo**.
+  - Hierarquia de classes completa com `Pessoa` (Classe Abstrata) como raiz.
+  - Exploração dos tipos de herança:
+    - **Implementação:** Classe `Visitante` ("Herança Pobre").
+    - **Diferença:** Classe `Aluno` e `Professor` (Herança com atributos específicos).
+    - **Especialização:** Classe `Tecnico` (Aluno com prática profissional).
+  - Aplicação de **Sobrescrita (@Override)** na classe `Bolsista`, alterando o comportamento do método `pagarMensalidade`.
 
 ## Como usar
 
