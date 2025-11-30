@@ -79,7 +79,7 @@ Os arquivos .java estão divididos em pastas conforme as aulas, seguindo a lógi
 ## Como usar
 
 1. Clone o repositório:
-git clone https://github.com/Isacmsm/CursoemVideoJava
+git clone https://github.com/Isacmsm/CursoemVideoJava.git
 2. Abra no VS Code, NetBeans ou IDE de sua preferência.
 3. Explore cada pasta conforme o progresso das aulas.
 4. Experimente modificar e executar os códigos para testar os conceitos explicados.
